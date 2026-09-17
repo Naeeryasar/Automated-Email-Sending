@@ -5,3 +5,6 @@ from email.mime.text import MIMEText
 sender_email = "alf.stoltenberg21@ethereal.email"
 sender_password = "YOUR_PASSWORD"
 receiver_email = "naeeryasar3486@gmail.com"
+
+subject = "Automated Email Test"
+body = "I need water"
