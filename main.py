@@ -19,3 +19,7 @@ server = smtplib.SMTP("smtp.ethereal.email", 587)
 server.starttls()
 server.login(sender_email, sender_password)
 
+server.sendmail(sender_email, receiver_email, message.as_string())
+print("Email sent successfully!")
+
+server.quit()
