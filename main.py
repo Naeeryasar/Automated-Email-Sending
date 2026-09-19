@@ -7,7 +7,7 @@ sender_password = "6kFGCmFVUnU3RDjBmP"
 receiver_email = "naeeryasar3486@gmail.com"
 
 subject = "Automated Email Test"
-body = "I need water"
+body = "Everyone needs water"
 
 message = MIMEMultipart()
 message["From"] = sender_email
